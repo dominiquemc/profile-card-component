@@ -1,0 +1,31 @@
+:root {
+--Darkcyan: hsl(185, 75%, 39%);
+--Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+--Darkgrayishblue: hsl(227, 10%, 46%);
+--Darkgray: hsl(0, 0%, 59%);
+
+}
+
+body {
+    background-color: var();
+    background-image: 
+    url(images/bg-pattern-top.svg), 
+    url(images/bg-pattern-bottom.svg);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  color: hsl(228, 45%, 44%); 
+
+ }
