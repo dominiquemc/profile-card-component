@@ -6,7 +6,8 @@
 }
 
 body {
-   /* background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg); */
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg); 
+    background-color: #19A1AD;
     font-family: 'Kumbh Sans', sans-serif;
     background-repeat: no-repeat;
     display: flex;
@@ -44,7 +45,6 @@ body {
     margin: 0;
     font-size: 1.2rem;
 }
-
 
 
 .age {
