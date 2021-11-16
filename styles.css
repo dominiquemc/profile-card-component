@@ -32,20 +32,23 @@ body {
     
 }
 
+.img-victor {
+    border-radius: 50px;
+    border: 5px solid white;
+}
+
 .card-content {
    display: flex;
    flex-direction: column;
    align-items: center;
    position: relative;
    bottom: 50px;
-   
 }
 
 .card-content h2 {
     margin: 0;
     font-size: 1.2rem;
 }
-
 
 .age {
     color: hsl(0, 0%, 59%);
@@ -57,12 +60,6 @@ body {
     color: var(--Darkgray);
     font-weight: 100;
     margin-top: 10px;
-}
-
-
-.img-victor {
-    border-radius: 50px;
-    border: 5px solid white;
 }
 
 .card-footer {
@@ -93,8 +90,10 @@ body {
 }
 
 .attribution { 
+    display: flex;
+    margin-top: 50px;
   font-size: 11px; 
   text-align: center; 
-  color: hsl(228, 45%, 44%); 
-
+  color:white; 
+  border: 2px solid red;
  }
