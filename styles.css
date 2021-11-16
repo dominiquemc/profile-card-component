@@ -8,19 +8,42 @@
 
 body {
     background-color: var();
-    background-image: 
-    url(images/bg-pattern-top.svg), 
-    url(images/bg-pattern-bottom.svg);
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-.container {
+.card {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    max-width: 400px;
-    height: 400px;
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
     margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-background {
+    width: 100%;
+}
+
+
+.card-content {
+   
+}
+
+.card-content-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-victor {
+    border-radius: 50px;
+    border: 5px solid white;
+    position: relative;
+    bottom: 50px;
+    
+    
 }
 
 .attribution { 
