@@ -15,11 +15,21 @@ body {
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 500px;
+    height: 450px;
     margin: auto;
     border-radius: 10px;
     overflow: hidden;
-    border: 2px solid lightslategray;
+    border: 1px solid teal; /*temp border */
+}
+
+.card-background {
+    width: 100%;
+}
+
+.card-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .card-content h2 {
@@ -34,19 +44,8 @@ body {
 }
 
 .london {
-    color: hsl(0, 0%, 59%);
+    color: var(--Darkgray);
     font-weight: 100;
-}
-
-.card-background {
-    width: 100%;
-}
-
-
-.card-content {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
 }
 
 .img-victor {
@@ -54,6 +53,31 @@ body {
     border: 5px solid white;
     position: relative;
     bottom: 50px; 
+    
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    
+}
+
+.card-footer p {
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+.items {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-top: 5px;
+    color: var(--Darkgray);
     
 }
 
