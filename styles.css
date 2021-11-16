@@ -14,12 +14,12 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     width: 400px;
     height: 500px;
     margin: auto;
     border-radius: 10px;
     overflow: hidden;
+    border: 2px solid lightslategray;
 }
 
 .card-background {
@@ -28,21 +28,16 @@ body {
 
 
 .card-content {
-   
-}
-
-.card-content-img {
-    display: flex;
-    justify-content: center;
-
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .img-victor {
     border-radius: 50px;
     border: 5px solid white;
     position: relative;
-    bottom: 50px;
-    
+    bottom: 50px; 
     
 }
 
